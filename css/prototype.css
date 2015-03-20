@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------Prototype Style Sheet (empty commented stylesheet)version:   1.0author:    andy buddemail:     info@andybudd.comwebsite:   http://www.andybudd.com/-----------------------------------------------------------------------------*/
+/* =General-----------------------------------------------------------------------------*/
+/* =Remember Order Of Styling Links-----------------------------------------------------------------------------*/
+/* line 1, ../sass/prototype.scss */
+a:link, a:visited, a:hover, a:focus, a:active * {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove IE flicker when using image for link rollovers */
+/* line 1, ../sass/prototype.scss */
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+/* apply a natural box layout model to all elements */
+/* line 1, ../sass/prototype.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Put it back on certain elements */
+/* line 1, ../sass/prototype.scss */
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, fieldset, table, ul {
+  margin: 1em 0;
+}
+
+/* Class for clearing floats */
+/* line 1, ../sass/prototype.scss */
+.clear {
+  clear: both;
+}
+
+/* Remove border around linked images */
+/* line 1, ../sass/prototype.scss */
+img {
+  border: 0;
+}
+
+/* =Typography-----------------------------------------------------------------------------*/
+/* line 1, ../sass/prototype.scss */
+body {
+  font: 62.5%/1.6 "Lucida Grande", "Lucida Sans", "Trebuchet MS", Tahoma, Verdana, sans-serif;
+}
+
+/* =Headings-----------------------------------------------------------------------------*/
+/* =Links-----------------------------------------------------------------------------*/
+/* =Branding-----------------------------------------------------------------------------*/
+/* =Main Nav-----------------------------------------------------------------------------*/
+/* =Sub Nav-----------------------------------------------------------------------------*/
+/* =Main Content-----------------------------------------------------------------------------*/
+/* =Secondary Content-----------------------------------------------------------------------------*/
+/* =Footer-----------------------------------------------------------------------------*/
+/* =Forms-----------------------------------------------------------------------------*/
+/* Removes fieldset borders. even on Opea 7 */
+/* line 1, ../sass/prototype.scss */
+fieldset {
+  border: 1px solid transparent;
+}
+
+/* =Tables-----------------------------------------------------------------------------*/
+/* line 1, ../sass/prototype.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 1, ../sass/prototype.scss */
+td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* =Misc 1-----------------------------------------------------------------------------*/
+/* =Misc 2-----------------------------------------------------------------------------*/
